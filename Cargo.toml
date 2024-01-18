@@ -6,9 +6,8 @@ edition = "2021"
 [dependencies]
 wayland-client = "0.31.1"
 wayland-protocols = { version = "0.31.0", features = ["unstable", "client"] }
-nix = { version = "0.27", features = ["fs", "mman"] }
-wayland-egl = "0.32.0"
 wayland-backend = { version = "0.3.2", features = ["client_system"] }
-khronos-egl = { verson = "6.0.0", features = ["static"] }
+wayland-egl = "0.32.0"
+khronos-egl = { version = "6.0.0", features = ["static"] }
 glow = "0.13.0"
 bytemuck = "1.14.0"
